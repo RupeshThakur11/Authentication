@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+    - "6"
+    - "7"
+script: npm test
+notifications:
+    email:
+        recipients:
+            - zlatkofedor@cherrysro.com
+        on_success: change
+        on_failure: always
+services:
+  - mongodb
