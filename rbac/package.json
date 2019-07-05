@@ -28,19 +28,21 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "npm run snyk-protect; npm run build",
     "coveralls": "babel-node ./node_modules/gulp/bin/gulp.js coveralls",
     "doc": "babel-node ./node_modules/gulp/bin/gulp.js doc",
     "test": "jest --coverage --forceExit",
     "build": "babel-node ./node_modules/gulp/bin/gulp.js build",
-    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx ."
+    "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx .",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "async": "^2.3.0",
     "dynamoose": "^0.7.0",
     "keymirror": "^0.1.1",
     "lodash": "^4.17.4",
-    "web-error": "^4.0.1"
+    "web-error": "^4.0.1",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
@@ -70,5 +72,6 @@
   },
   "bugs": {
     "url": ""
-  }
+  },
+  "snyk": true
 }
