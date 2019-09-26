@@ -20,7 +20,7 @@
     "confidence": "3.x.x",
     "dotenv": "4.x.x",
     "glue": "4.x.x",
-    "handlebars": "4.x.x",
+    "handlebars": "4.3.0",
     "hapi": "16.x.x",
     "hapi-auth-basic": "4.x.x",
     "hapi-mongo-models": "6.x.x",
