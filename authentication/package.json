@@ -30,7 +30,7 @@
     "joi": "10.x.x",
     "lout": "10.x.x",
     "mongo-models": "1.x.x",
-    "mongodb": "2.x.x",
+    "mongodb": "3.1.13",
     "uuid": "3.x.x",
     "nodemailer": "3.x.x",
     "nodemailer-markdown": "1.x.x",
