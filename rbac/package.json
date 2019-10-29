@@ -63,7 +63,7 @@
     "gulp-util": "^3.0.8",
     "jaguarjs-jsdoc": "^1.0.2",
     "jsdoc": "^3.4.3",
-    "mongoose": "^4.9.3",
+    "mongoose": "^5.7.7",
     "should": "^11.2.1",
     "jest": "^19.0.2",
     "jest-cli": "^19.0.2"
