@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "async": "2.x.x",
-    "bcrypt": "1.x.x",
+    "bcrypt": "5.x.x",
     "boom": "4.x.x",
     "confidence": "3.x.x",
     "dotenv": "4.x.x",
